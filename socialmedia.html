@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="socialmedia.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <title>Repsonsive website</title>
+</head>
+<body>
+    <div class="total">
+        <div class="navbar">
+            <img src="logo.png" class="logo">
+            <ul id="menuList">
+                <li><a href="home.html" class="hvr-bounce-out">Home</a></li>
+            </ul>
+            <img src="menuicon.png" class="menu-icon" onclick="togglemenu()">
+        </div>
+        <div class="centertext">You can find me on
+        <div class="ytb"> <img src="pointer.png" class="pointer"></div>
+        <div class="socialmedia">Instagram <a href="https://www.instagram.com/petrica_z/" target="blank" class="hvr-buzz-out"><img src="instagram.png" class="smediaicons"></a></div>
+        <div class="socialmedia">Facebook <a href="https://www.facebook.com/petrica.zahapschi.3" target="blank" class="hvr-buzz-out"><img src="facebook.png" class="smediaicons"></a></div>
+        <div class="socialmedia">TikTok <a href="https://www.tiktok.com/@petresefu?lang=en" target="blank" class="hvr-buzz-out"><img src="tiktok.png" class="smediaicons"></a></div>
+    </div>
+  </div>
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight  = "0px"
+        function togglemenu(){
+            if(menuList.style.maxHeight == "0px")
+
+            {
+                menuList.style.maxHeight  = "130px"
+            }
+            else{
+                menuList.style.maxHeight  = "0px"
+            }
+        }
+
+
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylediscord.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <title>Repsonsive website</title>
+</head>
+<body>
+    <div class="total">
+        <div class="navbar">
+            <img src="logo.png" class="logo">
+            <ul id="menuList">
+                <li><a href="home.html" class="hvr-bounce-out">Home</a></li>
+            </ul>
+            <img src="menuicon.png" class="menu-icon" onclick="togglemenu()">
+        </div>
+        <div class="centertext"><a href="https://discord.gg/zDsnYFNdjC" target="blank" class="hvr-buzz-out"><img src="discord.png" class="discord"></a>
+        <div class="ytb">ZPC Community</div>
+    </div>
+  </div>
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight  = "0px"
+        function togglemenu(){
+            if(menuList.style.maxHeight == "0px")
+
+            {
+                menuList.style.maxHeight  = "130px"
+            }
+            else{
+                menuList.style.maxHeight  = "0px"
+            }
+        }
+
+
+
+    </script>
+
+</body>
+</html>

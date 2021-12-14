@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <title>Repsonsive website</title>
+</head>
+<body>
+    <div class="total">
+        <div class="navbar">
+            <img src="logo.png" class="logo">
+            <ul id="menuList">
+                <li><a href="home.html" class="hvr-bounce-out">Home</a></li>
+                <li><a href="socialmedia.html" class="hvr-bounce-out">Social Media
+                </a></li>
+                <li><a href="discordserver.html" class="hvr-bounce-out">Discord Server</a></li>
+            </ul>
+            <img src="menuicon.png" class="menu-icon" onclick="togglemenu()">
+        </div>
+        <div class="centertext">PetricaZPC
+        <div class="ytb">MY YOUTUBE CHANNEL -> <a href="https://www.youtube.com/channel/UCb606_DIIQSjeI9XeRb2E6Q" target="blank"><img src="ytb.png" class="hvr-buzz-out"></a></div>
+    </div>
+  </div>
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight  = "0px"
+        function togglemenu(){
+            if(menuList.style.maxHeight == "0px")
+
+            {
+                menuList.style.maxHeight  = "130px"
+            }
+            else{
+                menuList.style.maxHeight  = "0px"
+            }
+        }
+
+
+
+    </script>
+
+</body>
+</html>
